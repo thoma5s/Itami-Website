@@ -259,10 +259,10 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 width: 20%;
-margin-top: 50%;
+margin-top: 51%;
 }
 
-.nodrag{
+.nodrag {
 user-drag: none; 
 user-select: none;
 -moz-user-select: none;
@@ -309,12 +309,12 @@ bottom: 10px;
 width: 100%;
 }
 
-.footertext{
+.footertext {
 color:#DD0C3D;
 text-decoration:none;
 }
 
-.footertext:hover{
+.footertext:hover {
 text-decoration:underline;
 color:white;
 }
