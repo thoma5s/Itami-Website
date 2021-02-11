@@ -290,6 +290,9 @@ user-select: none;
 }
 
 
+
+
+
 .main-container {
 min-height: 100vh; /* will cover the 100% of viewport */
 overflow: hidden;
@@ -314,9 +317,4 @@ text-decoration:none;
 .footertext:hover{
 text-decoration:underline;
 color:white;
-}
-
-.DiscordFrame {
-  margin-left: 2100px;
-  margin-top: 20px;
 }
