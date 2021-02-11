@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Tamma+2:400,600" rel="stylesheet">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=0.75" />
+	<link rel="icon" type="image/icon" href="Logo.svg">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slide.css">
+	<title>Itami Client</title>
+	<meta name="og:image" itemprop="image" content="https://itami.cf/files/gui.png">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://itami.cf">
+	<meta property="og:site_name" content="">
+	<meta property="og:title" content=" ">
+	<meta property="og:description" content=" ">
+	
+	<style>
+	body {
+     background-image: url("files/background.svg");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+	 height:200vh;
+	 -webkit-background-size: 100%;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+	 overflow-x: hidden;
+	 position: relative;
+	}
+	</style>
+</head>
+	<body>
+	<a href="/">
+	<img href="/" class="logo" src="files/logo.svg" alt="Logo">
+	</a>
+	<div class="gui"><img src="gui.png"></div>
+	<text class="title">Itami</text>
+	<text class="maindesc">Pain to your opponents</text>
+	<a type="button" class="button button1 buttona" href="Itami.exe" target="_blank">Download</a><a type="button" class="button button2" href="discord" target="_blank">Discord</a>
+	<a href="media" class="media" target="_blank"><media>Media</a> *</media>
+	
+	<img src="files/lock.svg" class="icon icon1">
+	<desc class="desc1">Most Trusted</desc>
+	
+	<img src="files/star.svg" class="icon icon2">
+	<desc class="desc2">Best Free Client</desc>
+	
+	<img src="files/staff.svg" class="icon icon3">
+	<desc class="desc3">Used by Everyone</desc>
+	
+	
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="images/quote1.png" style="width:100%" class="nodrag">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/quote2.png" style="width:100%" class="nodrag">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/quote3.png" style="width:100%" class="nodrag">
+  </div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+<div class=”main-container”>
+ <footer>
+ &copy Itami 2020-2021, Designed by fetix & Sub.
+ </footer>
+</div>
+
+    </div>
+<script>
+	var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+	</body>
+</html>
