@@ -1,4 +1,4 @@
-body,button,input,select,textarea{font-family:"Baloo Tamma 2", sans-serif}
+body,button,input,select,textarea{font-family:"Baloo Tamma 2", sans-serif;}
 
 ::-webkit-scrollbar{
     width: 15px;
@@ -115,7 +115,7 @@ font-size: 18px;
 line-height: 31px;
 color: #434343;
 text-decoration: none;
-cursor: cursor.png;
+cursor: "cursor.png";
 }
 
 .media:hover{
@@ -130,7 +130,7 @@ text-decoration: underline;
 position: absolute;
 width: 160px;
 height: 45px;
-cursor: cursor.png;
+cursor: "cursor.png";
 font-family: Baloo Tamma 2;
 font-style: normal;
 font-weight: 600;
@@ -147,7 +147,7 @@ transition: .5s;
 }
 
 .button:hover {
-cursor: cursor.png;
+cursor: "cursor.png";
 background: #38121B;
 box-shadow: 0px 0px 0px 3px #DD0C3D;
 transition: .4s;
