@@ -254,7 +254,7 @@ text-align: center;
 
 /* Slideshow container */
 .slideshow-container {
-positon: relative;
+position: relative;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -263,7 +263,7 @@ margin-top: 79%;
 }
 
 .nodrag{
-user-drag: none; 
+user-zoom: none; 
 user-select: none;
 -moz-user-select: none;
 -webkit-user-drag: none;
